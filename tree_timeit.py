@@ -34,7 +34,7 @@ def build_tree_recursive(height, root=10, l_b=left_branch, r_b=right_branch):
         }
 
 
-# итеративная функция
+# нерекурсивная функция
 def build_tree_iterative(height=5, root=10, lt_branch=left_branch, rt_branch=right_branch):
     if height <= 0:
         return {str(root): []}
